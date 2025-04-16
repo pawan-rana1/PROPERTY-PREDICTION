@@ -11,7 +11,7 @@ import joblib
 
 # Load and preprocess data
 def load_data():
-    df = pd.read_csv('https://drive.google.com/file/d/1-UuhQCtJZTAUlv37fUnM-r78XdQlun5x/view?usp=drive_link')
+    df = pd.read_csv('https://raw.githubusercontent.com/pawan-rana1/PROPERTY-PREDICTION/main/Data.csv')
     
     # Handle missing values
     df['Heat treatment'] = df['Heat treatment'].fillna('unknown')
